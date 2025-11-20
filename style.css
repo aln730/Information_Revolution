@@ -11,10 +11,10 @@ main {
 
 .left-container {
     width: 20%;
-    background-image: linear-gradient(rgb(0, 81, 255), blue);
+    background-image: linear-gradient(rgb(0, 81, 255), rgb(0, 0, 78));
     display: flex;
     justify-content: center;
-    /* align-items: center;  */
+    align-items: center; 
     margin-right: 5pt;
 }
 .center-container {
