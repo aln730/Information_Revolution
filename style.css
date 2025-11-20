@@ -44,3 +44,22 @@ footer .content-box {
 .content-box p {
     margin-bottom: 0;
 }
+.pixel-art,
+.pixel-art-button,
+.pixel-art-exp {
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  transition: transform 0.3s ease;
+}
+
+.pixel-art-no-scale{
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+
+.pixel-art:hover,
+.pixel-art-button:hover,
+.pixel-art-exp:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
