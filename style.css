@@ -11,7 +11,9 @@ main {
 
 .left-container {
     width: 20%;
-    background-image: linear-gradient(rgb(0, 81, 255), rgb(0, 0, 78));
+    background-image: linear-gradient(rgba(255, 0, 153, 0.283), rgba(208, 0, 255, 0.14));
+    border-style: dashed;
+    border-color: rgb(255, 0, 242);
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -54,6 +56,9 @@ footer .content-box {
   image-rendering: pixelated;
   image-rendering: crisp-edges;
   transition: transform 0.3s ease;
+  width: 50px;
+  margin-right: 20px;
+
 }
 
 .pixel-art-no-scale{
